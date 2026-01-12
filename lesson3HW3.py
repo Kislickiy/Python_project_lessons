@@ -7,3 +7,6 @@ numbers_part1 = numbers[:numbers_len_half]
 numbers_part2 = numbers[numbers_len_half:]
 numbers_2parts = [numbers_part1, numbers_part2]
 print(numbers_2parts)
+lst = [[1, 2, 5], [4, 5], [9, 12] ]
+first_list = lst[::-1]
+print(first_list)
